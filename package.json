@@ -12,9 +12,10 @@
   "phet": {
     "phetLibs": [
       "bamboo",
+      "griddle",
+      "circuit-construction-kit-ac",
       "circuit-construction-kit-common",
-      "twixt",
-      "griddle"
+      "twixt"
     ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
