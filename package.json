@@ -10,6 +10,12 @@
     "grunt": "~1.1.0"
   },
   "phet": {
+    "phetLibs": [
+      "bamboo",
+      "circuit-construction-kit-common",
+      "twixt",
+      "griddle"
+    ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
     "runnable": true,
