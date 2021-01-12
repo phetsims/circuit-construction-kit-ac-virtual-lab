@@ -32,11 +32,17 @@
         "grunt": "~1.1.0"
       },
       "phet": {
+        "phetLibs": [
+          "bamboo",
+          "griddle",
+          "circuit-construction-kit-ac",
+          "circuit-construction-kit-common",
+          "twixt"
+        ],
         "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
         "simulation": true,
         "runnable": true,
         "colorProfile": true,
-        "readmeCreatedManually": true,
         "supportedBrands": [
           "phet",
           "adapted-from-phet"
@@ -49,16 +55,32 @@
   window.phet.chipper.stringRepos =
     [
       {
+        "repo": "bamboo",
+        "requirejsNamespace": "BAMBOO"
+      },
+      {
+        "repo": "circuit-construction-kit-ac",
+        "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC"
+      },
+      {
+        "repo": "circuit-construction-kit-ac-virtual-lab",
+        "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB"
+      },
+      {
+        "repo": "circuit-construction-kit-common",
+        "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_COMMON"
+      },
+      {
+        "repo": "griddle",
+        "requirejsNamespace": "GRIDDLE"
+      },
+      {
         "repo": "joist",
         "requirejsNamespace": "JOIST"
       },
       {
         "repo": "scenery-phet",
         "requirejsNamespace": "SCENERY_PHET"
-      },
-      {
-        "repo": "circuit-construction-kit-ac-virtual-lab",
-        "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB"
       },
       {
         "repo": "sun",
