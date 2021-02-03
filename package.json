@@ -19,7 +19,7 @@
     ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
-    "supportsInteractiveDescriptions": true,
+    "supportsInteractiveDescription": true,
     "runnable": true,
     "colorProfile": true,
     "supportedBrands": [
