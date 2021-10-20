@@ -17,9 +17,6 @@
       "circuit-construction-kit-common",
       "twixt"
     ],
-    "preload": [
-      "../sherpa/lib/decimal-10.3.1.js"
-    ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
     "simFeatures":{
