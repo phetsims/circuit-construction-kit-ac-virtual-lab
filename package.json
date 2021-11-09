@@ -1,6 +1,6 @@
 {
   "name": "circuit-construction-kit-ac-virtual-lab",
-  "version": "1.0.0-dev.0",
+  "version": "1.0.0-dev.1",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     ],
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
-    "simFeatures":{
+    "simFeatures": {
       "supportsInteractiveDescription": true
     },
     "runnable": true,
