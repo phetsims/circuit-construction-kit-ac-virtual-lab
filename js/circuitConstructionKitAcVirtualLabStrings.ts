@@ -9,7 +9,7 @@ import circuitConstructionKitAcVirtualLab from './circuitConstructionKitAcVirtua
 
 type StringsType = {
   'circuit-construction-kit-ac-virtual-lab': {
-    'title': string
+    'title': string;
   }
 };
 
