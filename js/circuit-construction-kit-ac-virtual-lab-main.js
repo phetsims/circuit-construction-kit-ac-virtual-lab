@@ -6,15 +6,15 @@
  * @author Sam Reid (PhET Interactive Simulations)
  */
 
+import LabScreen from '../../circuit-construction-kit-ac/js/lab/LabScreen.js';
 // Image is required for making toDataURLNodeSynchronous work in the built version
 import CCKCOptionsDialogContent from '../../circuit-construction-kit-common/js/view/CCKCOptionsDialogContent.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
+import '../../scenery/js/nodes/Image.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import circuitConstructionKitAcVirtualLabStrings from './circuitConstructionKitAcVirtualLabStrings.js';
-import LabScreen from '../../circuit-construction-kit-ac/js/lab/LabScreen.js';
-import '../../scenery/js/nodes/Image.js';
 
 const circuitConstructionKitAcTitleString = circuitConstructionKitAcVirtualLabStrings[ 'circuit-construction-kit-ac-virtual-lab' ].title;
 
