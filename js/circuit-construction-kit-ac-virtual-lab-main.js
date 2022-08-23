@@ -9,6 +9,7 @@
 import LabScreen from '../../circuit-construction-kit-ac/js/lab/LabScreen.js';
 // Image is required for making toDataURLNodeSynchronous work in the built version
 import CCKCOptionsDialogContent from '../../circuit-construction-kit-common/js/view/CCKCOptionsDialogContent.js';
+import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
 import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import '../../scenery/js/nodes/Image.js';
@@ -22,7 +23,13 @@ const circuitConstructionKitAcTitleString = circuitConstructionKitAcVirtualLabSt
 const tandem = Tandem.ROOT;
 
 const simOptions = {
-  createOptionsDialogContent: tandem => new CCKCOptionsDialogContent( tandem ),
+  preferencesModel: new PreferencesModel( {
+    generalOptions: {
+      customPreferences: [ {
+        createContent: tandem => new CCKCOptionsDialogContent( tandem )
+      } ]
+    }
+  } ),
   credits: {
     leadDesign: 'Amy Rouinfar',
     softwareDevelopment: 'Sam Reid, Denzell Barnett',
