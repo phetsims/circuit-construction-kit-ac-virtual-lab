@@ -24,7 +24,7 @@ const tandem = Tandem.ROOT;
 
 const simOptions = {
   preferencesModel: new PreferencesModel( {
-    generalOptions: {
+    simulationOptions: {
       customPreferences: [ {
         createContent: tandem => new CCKCGeneralPreferencesContentNode( tandem.createTandem( 'simPreferences' ) )
       } ]
