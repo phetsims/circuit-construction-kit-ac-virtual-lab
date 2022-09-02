@@ -17,7 +17,7 @@ import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
 import circuitConstructionKitAcVirtualLabStrings from './circuitConstructionKitAcVirtualLabStrings.js';
 
-const circuitConstructionKitAcTitleString = circuitConstructionKitAcVirtualLabStrings[ 'circuit-construction-kit-ac-virtual-lab' ].title;
+const circuitConstructionKitAcTitleStringProperty = circuitConstructionKitAcVirtualLabStrings[ 'circuit-construction-kit-ac-virtual-lab' ].titleStringProperty;
 
 // constants
 const tandem = Tandem.ROOT;
@@ -42,7 +42,7 @@ const simOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( circuitConstructionKitAcTitleString, [
+  const sim = new Sim( circuitConstructionKitAcTitleStringProperty, [
     new LabScreen( tandem.createTandem( 'labScreen' ), {
       labScreenViewOptions: {
         showNoncontactAmmeters: false
