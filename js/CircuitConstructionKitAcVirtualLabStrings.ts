@@ -15,8 +15,8 @@ type StringsType = {
   }
 };
 
-const circuitConstructionKitAcVirtualLabStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB' ) as StringsType;
+const CircuitConstructionKitAcVirtualLabStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB' ) as StringsType;
 
-circuitConstructionKitAcVirtualLab.register( 'circuitConstructionKitAcVirtualLabStrings', circuitConstructionKitAcVirtualLabStrings );
+circuitConstructionKitAcVirtualLab.register( 'CircuitConstructionKitAcVirtualLabStrings', CircuitConstructionKitAcVirtualLabStrings );
 
-export default circuitConstructionKitAcVirtualLabStrings;
+export default CircuitConstructionKitAcVirtualLabStrings;

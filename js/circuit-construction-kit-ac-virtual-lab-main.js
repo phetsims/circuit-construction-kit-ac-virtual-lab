@@ -15,9 +15,9 @@ import simLauncher from '../../joist/js/simLauncher.js';
 import '../../scenery/js/nodes/Image.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
-import circuitConstructionKitAcVirtualLabStrings from './circuitConstructionKitAcVirtualLabStrings.js';
+import CircuitConstructionKitAcVirtualLabStrings from './CircuitConstructionKitAcVirtualLabStrings.js';
 
-const circuitConstructionKitAcTitleStringProperty = circuitConstructionKitAcVirtualLabStrings[ 'circuit-construction-kit-ac-virtual-lab' ].titleStringProperty;
+const circuitConstructionKitAcTitleStringProperty = CircuitConstructionKitAcVirtualLabStrings[ 'circuit-construction-kit-ac-virtual-lab' ].titleStringProperty;
 
 // constants
 const tandem = Tandem.ROOT;
