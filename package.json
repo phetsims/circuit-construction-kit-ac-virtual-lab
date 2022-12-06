@@ -20,7 +20,7 @@
     "requirejsNamespace": "CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB",
     "simulation": true,
     "simFeatures": {
-      "supportsSound": true,
+      "supportsSound": false,
       "supportsInteractiveDescription": true,
       "supportsInteractiveHighlights": false
     },
