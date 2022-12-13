@@ -1,5 +1,5 @@
 {
-  "comment": "# circuit-construction-kit-ac-virtual-lab 1.0.2-rc.1 Sat Nov 26 2022 10:32:39 GMT-0700 (Mountain Standard Time)",
+  "comment": "# circuit-construction-kit-ac-virtual-lab 1.0.2 Mon Dec 12 2022 20:14:48 GMT-0700 (Mountain Standard Time)",
   "assert": {
     "sha": "767b2f345518ceca5144a152ecf40cd4f9206136",
     "branch": "HEAD"
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac-virtual-lab": {
-    "sha": "10cff6c4a8531333e01e0400f015d89d7437ad92",
+    "sha": "d5991d8f1c27f27f97f68a9b125f379394fc8376",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
