@@ -17,7 +17,7 @@
     "branch": "HEAD"
   },
   "chipper": {
-    "sha": "747d5d763adb642a96c8cff71afdfa2084a18b2d",
+    "sha": "3fab21dffb963921c140f8be9d04b27b545cfe21",
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac": {
@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac-virtual-lab": {
-    "sha": "cb5bae882d62f14cd9bcefa9fbeb506030887573",
+    "sha": "9463349a5dc5bd08021629b993689c1d0d92f51c",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
@@ -41,7 +41,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "9f7797c38b313d39eb7d32a763e631d6ee12e955",
+    "sha": "5ca18d5e7431dd1c96db1c0e498cc7fb3aec77c3",
     "branch": "HEAD"
   },
   "kite": {
