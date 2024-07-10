@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac-virtual-lab": {
-    "sha": "42d80c76dea2a465c31d666f52dd0c0f7a279883",
+    "sha": "4eb76c91c7afb9b500daf2810ccd900e3b31c868",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
@@ -81,7 +81,7 @@
     "branch": "HEAD"
   },
   "scenery": {
-    "sha": "07c661e13f3380b9dcff958282db19a1b3c5f8d8",
+    "sha": "2f5cb3ee14699ae3b01ff96cdb62c0c6981c7fde",
     "branch": "HEAD"
   },
   "scenery-phet": {
