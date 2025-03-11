@@ -7,9 +7,9 @@
  */
 
 import LabScreen from '../../circuit-construction-kit-ac/js/lab/LabScreen.js';
+import CCKCSim from '../../circuit-construction-kit-common/js/view/CCKCSim.js';
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
-import Sim from '../../joist/js/Sim.js';
 import simLauncher from '../../joist/js/simLauncher.js';
 import soundManager from '../../tambo/js/soundManager.js';
 import Tandem from '../../tandem/js/Tandem.js';
@@ -40,7 +40,7 @@ const simOptions = {
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
-  const sim = new Sim( circuitConstructionKitAcTitleStringProperty, [
+  const sim = new CCKCSim( circuitConstructionKitAcTitleStringProperty, [
     new LabScreen( tandem.createTandem( 'labScreen' ), {
       labScreenViewOptions: {
         showNoncontactAmmeters: false
