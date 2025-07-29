@@ -20,33 +20,27 @@ const circuitConstructionKitAcTitleStringProperty = CircuitConstructionKitAcVirt
 // constants
 const tandem = Tandem.ROOT;
 
-const simOptions = {
-  preferencesModel: new PreferencesModel( {
-    simulationOptions: {
-      customPreferences: [ {
-        createContent: tandem => new CCKCSimulationPreferencesContentNode( tandem )
-      } ]
-    }
-  } ),
-  credits: {
-    leadDesign: 'Amy Rouinfar',
-    softwareDevelopment: 'Sam Reid, Denzell Barnett',
-    team: 'Wendy Adams, Michael Dubson, Noah Finkelstein, Chris Keller, Ariel Paul, Kathy Perkins, Carl Wieman',
-    qualityAssurance: 'Jaspe Arias, Steele Dalton, Amanda Davis, Alex Dornan, Bryce Griebenow, Clifford Hardin, Ethan Johnson, Brooklyn Lash, Emily Miller, Liam Mulhall, Ben Roberts, Jacob Romero, Nancy Salpepi, Ethan Ward, Kathryn Woessner',
-    graphicArts: 'Bryce Gruneich, Mariah Hermsmeyer, Cheryl McCutchan'
-  }
-};
-
 // launch the sim - beware that scenery Image nodes created outside of simLauncher.launch() will have zero bounds
 // until the images are fully loaded, see https://github.com/phetsims/coulombs-law/issues/70
 simLauncher.launch( () => {
   const sim = new CCKCSim( circuitConstructionKitAcTitleStringProperty, [
-    new LabScreen( tandem.createTandem( 'labScreen' ), {
-      labScreenViewOptions: {
-        showNoncontactAmmeters: false
+    new LabScreen( tandem.createTandem( 'labScreen' ), false )
+  ], {
+    preferencesModel: new PreferencesModel( {
+      simulationOptions: {
+        customPreferences: [ {
+          createContent: tandem => new CCKCSimulationPreferencesContentNode( tandem )
+        } ]
       }
-    } )
-  ], simOptions );
+    } ),
+    credits: {
+      leadDesign: 'Amy Rouinfar',
+      softwareDevelopment: 'Sam Reid, Denzell Barnett',
+      team: 'Wendy Adams, Michael Dubson, Noah Finkelstein, Chris Keller, Ariel Paul, Kathy Perkins, Carl Wieman',
+      qualityAssurance: 'Jaspe Arias, Steele Dalton, Amanda Davis, Alex Dornan, Bryce Griebenow, Clifford Hardin, Ethan Johnson, Brooklyn Lash, Emily Miller, Liam Mulhall, Ben Roberts, Jacob Romero, Nancy Salpepi, Ethan Ward, Kathryn Woessner',
+      graphicArts: 'Bryce Gruneich, Mariah Hermsmeyer, Cheryl McCutchan'
+    }
+  } );
   sim.start();
 
   // turn off common UI sounds until a sound design has been done for this sim
