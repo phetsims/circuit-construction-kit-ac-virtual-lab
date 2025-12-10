@@ -21,7 +21,8 @@
     "simulation": true,
     "simFeatures": {
       "supportsSound": false,
-      "supportsInteractiveHighlights": false
+      "supportsInteractiveHighlights": false,
+      "supportsDynamicLocale": true
     },
     "runnable": true,
     "supportedBrands": [
