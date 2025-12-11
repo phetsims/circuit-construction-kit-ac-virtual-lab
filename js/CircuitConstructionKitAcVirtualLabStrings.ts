@@ -13,7 +13,6 @@ import circuitConstructionKitAcVirtualLab from './circuitConstructionKitAcVirtua
 
 type StringsType = {
   'circuit-construction-kit-ac-virtual-lab': {
-    'title': string;
     'titleStringProperty': LocalizedStringProperty;
   }
 };
