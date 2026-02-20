@@ -7,6 +7,7 @@
  */
 
 import LabScreen from '../../circuit-construction-kit-ac/js/lab/LabScreen.js';
+import CCKCConstants from '../../circuit-construction-kit-common/js/CCKCConstants.js';
 import CCKCSim from '../../circuit-construction-kit-common/js/view/CCKCSim.js';
 import CCKCSimulationPreferencesContentNode from '../../circuit-construction-kit-common/js/view/CCKCSimulationPreferencesContentNode.js';
 import PreferencesModel from '../../joist/js/preferences/PreferencesModel.js';
@@ -33,13 +34,7 @@ simLauncher.launch( () => {
         } ]
       }
     } ),
-    credits: {
-      leadDesign: 'Amy Rouinfar',
-      softwareDevelopment: 'Sam Reid, Denzell Barnett',
-      team: 'Wendy Adams, Michael Dubson, Noah Finkelstein, Chris Keller, Ariel Paul, Kathy Perkins, Carl Wieman',
-      qualityAssurance: 'Jaspe Arias, Steele Dalton, Amanda Davis, Alex Dornan, Bryce Griebenow, Clifford Hardin, Ethan Johnson, Brooklyn Lash, Emily Miller, Liam Mulhall, Ben Roberts, Jacob Romero, Nancy Salpepi, Ethan Ward, Kathryn Woessner',
-      graphicArts: 'Bryce Gruneich, Mariah Hermsmeyer, Cheryl McCutchan'
-    }
+    credits: CCKCConstants.CREDITS
   } );
   sim.start();
 
