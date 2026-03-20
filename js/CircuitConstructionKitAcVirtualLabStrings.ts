@@ -19,4 +19,6 @@ type StringsType = {
 
 const CircuitConstructionKitAcVirtualLabStrings = getStringModule( 'CIRCUIT_CONSTRUCTION_KIT_AC_VIRTUAL_LAB' ) as StringsType;
 
+circuitConstructionKitAcVirtualLab.register( 'CircuitConstructionKitAcVirtualLabStrings', CircuitConstructionKitAcVirtualLabStrings );
+
 export default CircuitConstructionKitAcVirtualLabStrings;
