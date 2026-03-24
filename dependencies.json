@@ -25,7 +25,7 @@
     "branch": "HEAD"
   },
   "circuit-construction-kit-ac-virtual-lab": {
-    "sha": "0e24a9b11be7ef064e4d3db9bf2dc52b67ab9476",
+    "sha": "05e021d863126a3e8447d47efd0cbfbd2b0285c8",
     "branch": "1.0"
   },
   "circuit-construction-kit-common": {
@@ -41,7 +41,7 @@
     "branch": "HEAD"
   },
   "joist": {
-    "sha": "f22713d360b0121b885d8a0dd6c41aa3258cda21",
+    "sha": "af22259a0a546f8bfa68f7525d2d88f73f9350c0",
     "branch": "HEAD"
   },
   "kite": {
